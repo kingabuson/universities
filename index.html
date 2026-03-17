@@ -6,35 +6,56 @@
   <title>Tracxn for Universities</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- ========== 1. HERO ========== -->
   <section id="hero" class="hero">
+    <div class="hero__bg-shapes">
+      <div class="hero__circle hero__circle--1"></div>
+      <div class="hero__circle hero__circle--2"></div>
+      <div class="hero__grid-pattern"></div>
+    </div>
     <div class="container hero__inner">
       <div class="hero__text reveal">
-        <h1>Tracxn for Universities</h1>
+        <span class="hero__badge">For Academic Institutions</span>
+        <h1>Tracxn for<br>Universities</h1>
         <p class="hero__sub">Empowering academic institutions with global market insights, enabling them to conduct thorough research for case-studies and fuel the entrepreneurial spirit.</p>
-        <a href="#" class="btn btn--primary">Schedule Demo</a>
+        <a href="#" class="btn btn--primary">
+          <span>Schedule Demo</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
       </div>
       <div class="hero__visual reveal reveal--right">
         <div class="floating-cards">
           <div class="blob"></div>
           <div class="stat-card stat-card--1">
+            <div class="stat-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f9a11f" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
             <span class="stat-card__number">1,600+</span>
             <span class="stat-card__label">Sectors Tracked</span>
           </div>
           <div class="stat-card stat-card--2">
+            <div class="stat-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#378bc8" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
             <span class="stat-card__number">50M+</span>
             <span class="stat-card__label">Companies</span>
           </div>
           <div class="stat-card stat-card--3">
+            <div class="stat-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#213459" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
             <span class="stat-card__number">500+</span>
             <span class="stat-card__label">University Partners</span>
           </div>
           <div class="stat-card stat-card--4">
+            <div class="stat-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f9a11f" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
             <span class="stat-card__number">100+</span>
             <span class="stat-card__label">Countries Covered</span>
           </div>
@@ -43,11 +64,16 @@
         </div>
       </div>
     </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-line"></div>
+    </div>
   </section>
 
   <!-- ========== 2. LOGOS ========== -->
   <section id="logos" class="logos">
     <div class="container">
+      <p class="logos__label">Trusted by leading institutions worldwide</p>
       <div class="marquee-wrapper">
         <div class="marquee marquee--left">
           <div class="marquee__track">
@@ -85,30 +111,49 @@
   <!-- ========== 3. USE CASES ========== -->
   <section id="use-cases" class="use-cases">
     <div class="container">
-      <h2 class="section-heading reveal">Designed to solve use cases for Universities</h2>
+      <div class="section-label reveal">Use Cases</div>
+      <h2 class="section-heading reveal">Designed to solve use cases<br>for Universities</h2>
       <div class="tabs reveal" id="useCaseTabs">
         <div class="tabs__nav">
           <button class="tabs__btn active" data-tab="0">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </span>
             Universities
             <span class="tabs__progress"></span>
           </button>
           <button class="tabs__btn" data-tab="1">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </span>
             Libraries
             <span class="tabs__progress"></span>
           </button>
           <button class="tabs__btn" data-tab="2">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            </span>
             Aspiring entrepreneurs
             <span class="tabs__progress"></span>
           </button>
           <button class="tabs__btn" data-tab="3">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            </span>
             Entrepreneurship cells
             <span class="tabs__progress"></span>
           </button>
           <button class="tabs__btn" data-tab="4">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </span>
             Incubation centers
             <span class="tabs__progress"></span>
           </button>
           <button class="tabs__btn" data-tab="5">
+            <span class="tabs__btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
             Placement committees
             <span class="tabs__progress"></span>
           </button>
@@ -120,15 +165,36 @@
               <div class="tabs__panel-text">
                 <h3>Strengthen your incubation portfolio</h3>
                 <ul>
-                  <li>Discover early-stage and pre-seed startups across your focus sectors and geographies.</li>
-                  <li>Conduct quick due diligence with access to company, founder, and financial data.</li>
-                  <li>Identify active investors and potential next-round funders for your portfolio startups.</li>
+                  <li>
+                    <span class="tabs__bullet"></span>
+                    Discover early-stage and pre-seed startups across your focus sectors and geographies.
+                  </li>
+                  <li>
+                    <span class="tabs__bullet"></span>
+                    Conduct quick due diligence with access to company, founder, and financial data.
+                  </li>
+                  <li>
+                    <span class="tabs__bullet"></span>
+                    Identify active investors and potential next-round funders for your portfolio startups.
+                  </li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -140,15 +206,27 @@
               <div class="tabs__panel-text">
                 <h3>Power your library with market intelligence</h3>
                 <ul>
-                  <li>Give researchers access to startup and funding data across 1,600+ sectors.</li>
-                  <li>Provide structured datasets for academic papers and dissertations.</li>
-                  <li>Complement existing library databases with real-time private market data.</li>
+                  <li><span class="tabs__bullet"></span>Give researchers access to startup and funding data across 1,600+ sectors.</li>
+                  <li><span class="tabs__bullet"></span>Provide structured datasets for academic papers and dissertations.</li>
+                  <li><span class="tabs__bullet"></span>Complement existing library databases with real-time private market data.</li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -160,15 +238,27 @@
               <div class="tabs__panel-text">
                 <h3>Boost your entrepreneurial journey</h3>
                 <ul>
-                  <li>Research competitors, market size, and funding trends for your startup idea.</li>
-                  <li>Discover potential investors aligned with your sector and stage.</li>
-                  <li>Learn from successful startup trajectories and founder profiles.</li>
+                  <li><span class="tabs__bullet"></span>Research competitors, market size, and funding trends for your startup idea.</li>
+                  <li><span class="tabs__bullet"></span>Discover potential investors aligned with your sector and stage.</li>
+                  <li><span class="tabs__bullet"></span>Learn from successful startup trajectories and founder profiles.</li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -180,15 +270,27 @@
               <div class="tabs__panel-text">
                 <h3>Boost your entrepreneurship cells and clubs</h3>
                 <ul>
-                  <li>Access detailed financials, valuations, and cap tables to build stronger, data-backed case studies.</li>
-                  <li>Track sectoral trends and market shifts to support innovation-driven entrepreneurship activities.</li>
-                  <li>Use Tracxn reports to present the latest insights and opportunities across global ecosystems.</li>
+                  <li><span class="tabs__bullet"></span>Access detailed financials, valuations, and cap tables to build stronger, data-backed case studies.</li>
+                  <li><span class="tabs__bullet"></span>Track sectoral trends and market shifts to support innovation-driven entrepreneurship activities.</li>
+                  <li><span class="tabs__bullet"></span>Use Tracxn reports to present the latest insights and opportunities across global ecosystems.</li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -200,15 +302,27 @@
               <div class="tabs__panel-text">
                 <h3>Strengthen your incubation portfolio</h3>
                 <ul>
-                  <li>Discover early-stage and pre-seed startups across your focus sectors and geographies.</li>
-                  <li>Conduct quick due diligence with access to company, founder, and financial data.</li>
-                  <li>Identify active investors and potential next-round funders for your portfolio startups.</li>
+                  <li><span class="tabs__bullet"></span>Discover early-stage and pre-seed startups across your focus sectors and geographies.</li>
+                  <li><span class="tabs__bullet"></span>Conduct quick due diligence with access to company, founder, and financial data.</li>
+                  <li><span class="tabs__bullet"></span>Identify active investors and potential next-round funders for your portfolio startups.</li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -220,15 +334,27 @@
               <div class="tabs__panel-text">
                 <h3>Empower your placement committees</h3>
                 <ul>
-                  <li>Map high-growth companies actively hiring across sectors and geographies.</li>
-                  <li>Identify startups with recent funding rounds that are scaling their teams.</li>
-                  <li>Give students data-backed insights to target the right career opportunities.</li>
+                  <li><span class="tabs__bullet"></span>Map high-growth companies actively hiring across sectors and geographies.</li>
+                  <li><span class="tabs__bullet"></span>Identify startups with recent funding rounds that are scaling their teams.</li>
+                  <li><span class="tabs__bullet"></span>Give students data-backed insights to target the right career opportunities.</li>
                 </ul>
               </div>
               <div class="tabs__panel-img">
                 <div class="placeholder-screenshot">
                   <div class="placeholder-screenshot__inner">
-                    <span>Platform Screenshot</span>
+                    <div class="placeholder-screenshot__mockup">
+                      <div class="mockup-bar"></div>
+                      <div class="mockup-content">
+                        <div class="mockup-line mockup-line--w60"></div>
+                        <div class="mockup-line mockup-line--w80"></div>
+                        <div class="mockup-line mockup-line--w40"></div>
+                        <div class="mockup-grid">
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                          <div class="mockup-block"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -242,13 +368,15 @@
   <!-- ========== 4. CITATIONS ========== -->
   <section id="citations" class="citations">
     <div class="container">
-      <h2 class="section-heading reveal">Citations in global academic research</h2>
+      <div class="section-label reveal">Research</div>
+      <h2 class="section-heading reveal">Citations in global<br>academic research</h2>
       <div class="citation-slider reveal" id="citationSlider">
         <div class="citation-slider__viewport">
           <div class="citation-slider__track">
             <!-- Slide 1 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">01 / 07</span>
                 <h3>Mapping the Startup Ecosystem in India</h3>
                 <p class="citation-slide__meta">Dublin City University &middot; Published in 2023</p>
                 <ul>
@@ -256,15 +384,24 @@
                   <li>Startups outside these clusters create more jobs despite receiving less funding</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn was extensively used to map startup trends, founders' profiles, and exit patterns&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 2 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">02 / 07</span>
                 <h3>Venture Capital and the Gender Financing Gap</h3>
                 <p class="citation-slide__meta">University of Oxford &middot; Published in 2023</p>
                 <ul>
@@ -272,15 +409,24 @@
                   <li>Sector concentration plays a key role in the observed financing gap</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn data was used to analyze funding patterns across 10,000+ startups by founder gender&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 3 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">03 / 07</span>
                 <h3>Platform Business Models in Emerging Markets</h3>
                 <p class="citation-slide__meta">IIM Ahmedabad &middot; Published in 2024</p>
                 <ul>
@@ -288,15 +434,24 @@
                   <li>Network effects drive valuation premiums in marketplace models</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn's sector classification and business model descriptors enabled systematic firm-level analysis&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 4 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">04 / 07</span>
                 <h3>Impact of Government Policy on Startup Ecosystems</h3>
                 <p class="citation-slide__meta">National University of Singapore &middot; Published in 2022</p>
                 <ul>
@@ -304,15 +459,24 @@
                   <li>Regulatory sandboxes accelerate fintech startup formation by 40%</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn funding data was used to quantify policy impact across 15 Asian economies&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 5 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">05 / 07</span>
                 <h3>Serial Entrepreneurship and Venture Outcomes</h3>
                 <p class="citation-slide__meta">Imperial College London &middot; Published in 2023</p>
                 <ul>
@@ -320,15 +484,24 @@
                   <li>Prior exit experience significantly predicts subsequent venture success</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn founder profiles enabled tracking entrepreneurial journeys across multiple ventures&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 6 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">06 / 07</span>
                 <h3>AI Adoption in Healthcare Startups</h3>
                 <p class="citation-slide__meta">Stanford University &middot; Published in 2024</p>
                 <ul>
@@ -336,15 +509,24 @@
                   <li>Regulatory barriers remain the primary bottleneck for AI health deployment</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn sector reports and company data powered the cross-country comparison of 500+ health-AI startups&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Slide 7 -->
             <div class="citation-slide">
               <div class="citation-slide__text">
+                <span class="citation-slide__badge">07 / 07</span>
                 <h3>The Role of Accelerators in Startup Success</h3>
                 <p class="citation-slide__meta">Cambridge Judge Business School &middot; Published in 2023</p>
                 <ul>
@@ -352,18 +534,30 @@
                   <li>Top-tier accelerator alumni attract follow-on funding 60% faster</li>
                 </ul>
                 <blockquote>&ldquo;Tracxn data was used to track accelerator cohort outcomes across a 10-year longitudinal study&rdquo;</blockquote>
-                <a href="#" class="link-arrow">Read the full article here &rarr;</a>
+                <a href="#" class="link-arrow">Read the full article here <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
               </div>
               <div class="citation-slide__img">
-                <div class="placeholder-paper">Paper Preview</div>
+                <div class="placeholder-paper">
+                  <div class="placeholder-paper__inner">
+                    <div class="paper-line paper-line--title"></div>
+                    <div class="paper-line paper-line--sub"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body"></div>
+                    <div class="paper-line paper-line--body paper-line--short"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="citation-slider__controls">
-          <button class="citation-slider__arrow citation-slider__arrow--prev" aria-label="Previous">&larr;</button>
+          <button class="citation-slider__arrow citation-slider__arrow--prev" aria-label="Previous">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
           <div class="citation-slider__pips" id="citationPips"></div>
-          <button class="citation-slider__arrow citation-slider__arrow--next" aria-label="Next">&rarr;</button>
+          <button class="citation-slider__arrow citation-slider__arrow--next" aria-label="Next">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
         </div>
       </div>
     </div>
@@ -374,6 +568,7 @@
     <div class="container">
       <div class="courses__grid reveal">
         <div class="courses__text">
+          <div class="section-label section-label--left">Curriculum</div>
           <h2 class="section-heading section-heading--left">Tracxn in your Courses</h2>
           <div class="courses__points">
             <div class="courses__point">
@@ -398,12 +593,24 @@
               </div>
             </div>
           </div>
-          <a href="#" class="link-arrow">Experience how Tracxn powers curriculum with real-world projects? Book a Demo now &rarr;</a>
+          <a href="#" class="link-arrow">Experience how Tracxn powers curriculum with real-world projects? Book a Demo now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
         <div class="courses__img">
           <div class="placeholder-screenshot">
             <div class="placeholder-screenshot__inner">
-              <span>Course Screenshot</span>
+              <div class="placeholder-screenshot__mockup">
+                <div class="mockup-bar"></div>
+                <div class="mockup-content">
+                  <div class="mockup-line mockup-line--w60"></div>
+                  <div class="mockup-line mockup-line--w80"></div>
+                  <div class="mockup-line mockup-line--w40"></div>
+                  <div class="mockup-grid">
+                    <div class="mockup-block"></div>
+                    <div class="mockup-block"></div>
+                    <div class="mockup-block"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -413,8 +620,10 @@
 
   <!-- ========== 6. CAMPUS CONNECT ========== -->
   <section id="campus" class="campus">
+    <div class="campus__texture"></div>
     <div class="container">
       <div class="campus__header reveal">
+        <div class="section-label section-label--gold">On Campus</div>
         <h2 class="section-heading section-heading--light">Tracxn on Campus</h2>
         <p class="campus__sub">Our in-person engagement sessions guide faculty and students to leverage Tracxn for academia and beyond.</p>
       </div>
@@ -463,16 +672,28 @@
           <div class="campus__carousel-viewport">
             <div class="campus__carousel-track">
               <div class="campus__carousel-slide">
-                <div class="placeholder-photo">Campus Session 1</div>
+                <div class="placeholder-photo">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                  <span>Campus Session 1</span>
+                </div>
               </div>
               <div class="campus__carousel-slide">
-                <div class="placeholder-photo">Campus Session 2</div>
+                <div class="placeholder-photo">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                  <span>Campus Session 2</span>
+                </div>
               </div>
               <div class="campus__carousel-slide">
-                <div class="placeholder-photo">Campus Session 3</div>
+                <div class="placeholder-photo">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                  <span>Campus Session 3</span>
+                </div>
               </div>
               <div class="campus__carousel-slide">
-                <div class="placeholder-photo">Campus Session 4</div>
+                <div class="placeholder-photo">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                  <span>Campus Session 4</span>
+                </div>
               </div>
             </div>
           </div>
@@ -485,77 +706,90 @@
   <!-- ========== 7. SCHOOL TO STARTUP ========== -->
   <section id="school-to-startup" class="school-to-startup">
     <div class="container">
-      <h2 class="section-heading reveal">School to Startup: Insights from academia</h2>
+      <div class="section-label reveal">Faculty Insights</div>
+      <h2 class="section-heading reveal">School to Startup:<br>Insights from academia</h2>
       <div class="prof-grid reveal">
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Prof Chengwei Liu</h4>
             <p class="prof-card__uni">Imperial College London</p>
             <p>Talks about the role of luck and fear of failure for student entrepreneurs, and how academic institutions can better support entrepreneurship.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Professor Thomas Hellmann</h4>
             <p class="prof-card__uni">University of Oxford</p>
             <p>Explores why blindly imitating Silicon Valley can backfire, what makes founders resilient, &amp; how universities can rethink entrepreneurship education.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Prof. Allan O'Connor</h4>
             <p class="prof-card__uni">University of South Australia</p>
             <p>A high-school dropout turned entrepreneurship Professor talks about purpose-driven ventures &amp; that the role of education is nothing short of inspiring.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Prof Erkko Autio</h4>
             <p class="prof-card__uni">Imperial College London</p>
             <p>Talks about the importance of social entrepreneurship &amp; how universities act as catalysts by fostering innovation, &amp; connecting stakeholders and startups.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Professor Jaideep Prabhu</h4>
             <p class="prof-card__uni">Judge Business School, Cambridge University</p>
             <p>Talks about how a university can contribute towards building a start up and its founder from ground-up.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
         <div class="prof-card">
           <div class="prof-card__photo">
-            <div class="placeholder-headshot">Photo</div>
+            <div class="placeholder-headshot">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(138,133,120,0.5)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
           </div>
           <div class="prof-card__body">
             <h4>Professor Jan Kratzer</h4>
             <p class="prof-card__uni">Technical University Berlin</p>
             <p>Talks about the change in entrepreneurship, latest trends and see entrepreneurship from a different angle.</p>
-            <a href="#" class="link-arrow">Watch now &rarr;</a>
+            <a href="#" class="link-arrow">Watch now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
       </div>
       <div class="text-center reveal">
-        <a href="#" class="link-arrow">View All &rarr;</a>
+        <a href="#" class="link-arrow link-arrow--standalone">View All <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
     </div>
   </section>
@@ -563,12 +797,15 @@
   <!-- ========== 8. VIDEO TESTIMONIALS ========== -->
   <section id="video-testimonials" class="video-testimonials">
     <div class="container">
+      <div class="section-label reveal">Student Stories</div>
       <h2 class="section-heading reveal">How Students use Tracxn</h2>
       <div class="video-grid reveal">
         <div class="video-card">
           <div class="video-card__thumb">
             <div class="placeholder-video">
-              <div class="play-btn">&#9654;</div>
+              <div class="play-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
             </div>
           </div>
           <div class="video-card__body">
@@ -580,7 +817,9 @@
         <div class="video-card">
           <div class="video-card__thumb">
             <div class="placeholder-video">
-              <div class="play-btn">&#9654;</div>
+              <div class="play-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
             </div>
           </div>
           <div class="video-card__body">
@@ -592,7 +831,9 @@
         <div class="video-card">
           <div class="video-card__thumb">
             <div class="placeholder-video">
-              <div class="play-btn">&#9654;</div>
+              <div class="play-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
             </div>
           </div>
           <div class="video-card__body">
@@ -610,153 +851,235 @@
     <div class="container">
       <!-- Faculty Row -->
       <h3 class="testimonial-row-heading reveal">How Faculties use Tracxn</h3>
-      <div class="testimonial-marquee testimonial-marquee--left" id="facultyMarquee">
-        <div class="testimonial-marquee__track">
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn is an excellent choice if you need a structured, up-to-date view of companies, especially for classification, sector analysis, or market mapping. For time series analysis, however, supplementing with additional financial datasets may be necessary. Using Tracxn for my research on platform businesses. Given the evolving definitions in this space, the detailed descriptors such as Short Description, Overview, Sector, and Business Models help me clearly classify each firm as a platform or non-platform business.&rdquo;</p>
-            <div class="testimonial-card__author">
+    </div>
+    <div class="testimonial-marquee testimonial-marquee--left" id="facultyMarquee">
+      <div class="testimonial-marquee__track">
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn is an excellent choice if you need a structured, up-to-date view of companies, especially for classification, sector analysis, or market mapping. For time series analysis, however, supplementing with additional financial datasets may be necessary. Using Tracxn for my research on platform businesses. Given the evolving definitions in this space, the detailed descriptors such as Short Description, Overview, Sector, and Business Models help me clearly classify each firm as a platform or non-platform business.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JU</div>
+            <div>
               <strong>Dr. Jeemol Unni</strong>
               <span>Professor, Economics</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn Technologies provides an excellent global database on early-stage fundraising by start-ups across different stages, industries &amp; geographies. I have been using the Tracxn database for my MBA as well as executive education teaching in core courses such as Corporate Finance, as well as elective courses such as Investment Analysis and Portfolio Management, Entrepreneurial Financing, Private Equity, Venture Capital &amp; Alternate Investments, and Business Valuation.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn Technologies provides an excellent global database on early-stage fundraising by start-ups across different stages, industries &amp; geographies. I have been using the Tracxn database for my MBA as well as executive education teaching in core courses such as Corporate Finance, as well as elective courses such as Investment Analysis and Portfolio Management, Entrepreneurial Financing, Private Equity, Venture Capital &amp; Alternate Investments, and Business Valuation.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AB</div>
+            <div>
               <strong>Arnab Bhattacharya</strong>
               <span>Associate Professor, Finance &amp; Control Group</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I have started recommending Tracxn to my students for their data needs, and I personally like Tracxn, it's quite useful! I am also exploring ways to integrate Tracxn into my upcoming course in Strategic Management &amp; projects for my students, as I see strong potential for its application in management courses.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I have started recommending Tracxn to my students for their data needs, and I personally like Tracxn, it's quite useful! I am also exploring ways to integrate Tracxn into my upcoming course in Strategic Management &amp; projects for my students, as I see strong potential for its application in management courses.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AA</div>
+            <div>
               <strong>Dr. Anuja Agrawal</strong>
               <span>Adjunct Faculty</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been an invaluable resource for my academic research and teaching. It provides deep market insights on emerging trends, especially in the start-up ecosystem. I highly recommend Tracxn for learning and staying ahead of the curve.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been an invaluable resource for my academic research and teaching. It provides deep market insights on emerging trends, especially in the start-up ecosystem. I highly recommend Tracxn for learning and staying ahead of the curve.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">VT</div>
+            <div>
               <strong>Dr. Vinod Thakur</strong>
               <span>Assistant Professor</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I have used Tracxn as part of our fintech program. The platform provides useful data on fintech startups, funding rounds, and market trends. Our students use curated data for research projects and to stay informed about developments in the fintech sector. Besides that, what I really value the most is their excellent analyst support and their ability to curate the company data based on custom requests. Tracxn's company profiles and sector reports have been helpful in our case study discussions. The platform's search features allow students to find relevant information for their assignments.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I have used Tracxn as part of our fintech program. The platform provides useful data on fintech startups, funding rounds, and market trends. Our students use curated data for research projects and to stay informed about developments in the fintech sector. Besides that, what I really value the most is their excellent analyst support and their ability to curate the company data based on custom requests. Tracxn's company profiles and sector reports have been helpful in our case study discussions. The platform's search features allow students to find relevant information for their assignments.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">VP</div>
+            <div>
               <strong>Vikram Pandya</strong>
               <span>Director</span>
             </div>
           </div>
-          <!-- Duplicate for seamless loop -->
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn is an excellent choice if you need a structured, up-to-date view of companies, especially for classification, sector analysis, or market mapping. For time series analysis, however, supplementing with additional financial datasets may be necessary. Using Tracxn for my research on platform businesses. Given the evolving definitions in this space, the detailed descriptors such as Short Description, Overview, Sector, and Business Models help me clearly classify each firm as a platform or non-platform business.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn is an excellent choice if you need a structured, up-to-date view of companies, especially for classification, sector analysis, or market mapping. For time series analysis, however, supplementing with additional financial datasets may be necessary. Using Tracxn for my research on platform businesses. Given the evolving definitions in this space, the detailed descriptors such as Short Description, Overview, Sector, and Business Models help me clearly classify each firm as a platform or non-platform business.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JU</div>
+            <div>
               <strong>Dr. Jeemol Unni</strong>
               <span>Professor, Economics</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn Technologies provides an excellent global database on early-stage fundraising by start-ups across different stages, industries &amp; geographies. I have been using the Tracxn database for my MBA as well as executive education teaching in core courses such as Corporate Finance, as well as elective courses such as Investment Analysis and Portfolio Management, Entrepreneurial Financing, Private Equity, Venture Capital &amp; Alternate Investments, and Business Valuation.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn Technologies provides an excellent global database on early-stage fundraising by start-ups across different stages, industries &amp; geographies. I have been using the Tracxn database for my MBA as well as executive education teaching in core courses such as Corporate Finance, as well as elective courses such as Investment Analysis and Portfolio Management, Entrepreneurial Financing, Private Equity, Venture Capital &amp; Alternate Investments, and Business Valuation.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AB</div>
+            <div>
               <strong>Arnab Bhattacharya</strong>
               <span>Associate Professor, Finance &amp; Control Group</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I have started recommending Tracxn to my students for their data needs, and I personally like Tracxn, it's quite useful! I am also exploring ways to integrate Tracxn into my upcoming course in Strategic Management &amp; projects for my students, as I see strong potential for its application in management courses.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I have started recommending Tracxn to my students for their data needs, and I personally like Tracxn, it's quite useful! I am also exploring ways to integrate Tracxn into my upcoming course in Strategic Management &amp; projects for my students, as I see strong potential for its application in management courses.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AA</div>
+            <div>
               <strong>Dr. Anuja Agrawal</strong>
               <span>Adjunct Faculty</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been an invaluable resource for my academic research and teaching. It provides deep market insights on emerging trends, especially in the start-up ecosystem. I highly recommend Tracxn for learning and staying ahead of the curve.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been an invaluable resource for my academic research and teaching. It provides deep market insights on emerging trends, especially in the start-up ecosystem. I highly recommend Tracxn for learning and staying ahead of the curve.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">VT</div>
+            <div>
               <strong>Dr. Vinod Thakur</strong>
               <span>Assistant Professor</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I have used Tracxn as part of our fintech program. The platform provides useful data on fintech startups, funding rounds, and market trends. Our students use curated data for research projects and to stay informed about developments in the fintech sector. Besides that, what I really value the most is their excellent analyst support and their ability to curate the company data based on custom requests. Tracxn's company profiles and sector reports have been helpful in our case study discussions. The platform's search features allow students to find relevant information for their assignments.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I have used Tracxn as part of our fintech program. The platform provides useful data on fintech startups, funding rounds, and market trends. Our students use curated data for research projects and to stay informed about developments in the fintech sector. Besides that, what I really value the most is their excellent analyst support and their ability to curate the company data based on custom requests. Tracxn's company profiles and sector reports have been helpful in our case study discussions. The platform's search features allow students to find relevant information for their assignments.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">VP</div>
+            <div>
               <strong>Vikram Pandya</strong>
               <span>Director</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container">
       <!-- Students Row -->
       <h3 class="testimonial-row-heading reveal">How Students use Tracxn</h3>
-      <div class="testimonial-marquee testimonial-marquee--right" id="studentMarquee">
-        <div class="testimonial-marquee__track">
-          <div class="testimonial-card">
-            <p>&ldquo;I just attended the Tracxn workshop and it was pretty amazing, we firstly learnt that Tracxn had so many capabilities, especially for a startup founder when it comes to competitor analysis, finding out a lot about the investors, how easy it is to actually use the entire platform. So I think it was a pretty cool research tool and I can't wait to start leveraging it.&rdquo;</p>
-            <div class="testimonial-card__author">
+    </div>
+    <div class="testimonial-marquee testimonial-marquee--right" id="studentMarquee">
+      <div class="testimonial-marquee__track">
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I just attended the Tracxn workshop and it was pretty amazing, we firstly learnt that Tracxn had so many capabilities, especially for a startup founder when it comes to competitor analysis, finding out a lot about the investors, how easy it is to actually use the entire platform. So I think it was a pretty cool research tool and I can't wait to start leveraging it.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">KK</div>
+            <div>
               <strong>Khyati Khandelwal</strong>
               <span>Indian School of Business</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I started using Tracxn when I was doing an internship in a VC fund, a couple of years back and it was used extensively by the analysts and the partners, that was the first introduction to Tracxn as a platform. I also did a master of finance in Germany in Frankfurt and It was surprising that Tracxn was used exclusively there, because there was a lot of coverage for US based companies and Indian subsidies.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I started using Tracxn when I was doing an internship in a VC fund, a couple of years back and it was used extensively by the analysts and the partners, that was the first introduction to Tracxn as a platform. I also did a master of finance in Germany in Frankfurt and It was surprising that Tracxn was used exclusively there, because there was a lot of coverage for US based companies and Indian subsidies.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">RD</div>
+            <div>
               <strong>Rohil Dokani</strong>
               <span>Indian School of Business</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;So we have been provided with Tracxn as a platform. It is a database platform that has immense features. I am continuously using Tracxn from the last 10-12 months. It's been very useful in analyzing financial data, mainly of unlisted companies, finding out new startups across the location across India or globally.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;So we have been provided with Tracxn as a platform. It is a database platform that has immense features. I am continuously using Tracxn from the last 10-12 months. It's been very useful in analyzing financial data, mainly of unlisted companies, finding out new startups across the location across India or globally.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">GJ</div>
+            <div>
               <strong>Ganesh Jaju</strong>
               <span>Xavier Institute of Management and Entrepreneurship</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been a valuable resource during my business development internship. It's helped me efficiently identify potential clients by filtering companies based on recent funding rounds, team size, and hiring trends. While not all internships require this, especially given the variety in domains and functions, Tracxn stands out as a powerful tool for anyone looking to quickly grasp industry dynamics and make informed outreach decisions.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been a valuable resource during my business development internship. It's helped me efficiently identify potential clients by filtering companies based on recent funding rounds, team size, and hiring trends. While not all internships require this, especially given the variety in domains and functions, Tracxn stands out as a powerful tool for anyone looking to quickly grasp industry dynamics and make informed outreach decisions.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">HM</div>
+            <div>
               <strong>Hathim Syed Mohamed M</strong>
               <span>IIM Kozhikode, PGP Batch '26</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been a valuable resource for identifying and accessing a diverse pool of industry professionals. The depth and organisation of the database have made large-scale academic data collection both feasible and efficient.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been a valuable resource for identifying and accessing a diverse pool of industry professionals. The depth and organisation of the database have made large-scale academic data collection both feasible and efficient.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">ST</div>
+            <div>
               <strong>Shivangi Tiwari</strong>
               <span>Research Scholar, Batch of 2022</span>
             </div>
           </div>
-          <!-- Duplicate for seamless loop -->
-          <div class="testimonial-card">
-            <p>&ldquo;I just attended the Tracxn workshop and it was pretty amazing, we firstly learnt that Tracxn had so many capabilities, especially for a startup founder when it comes to competitor analysis, finding out a lot about the investors, how easy it is to actually use the entire platform. So I think it was a pretty cool research tool and I can't wait to start leveraging it.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I just attended the Tracxn workshop and it was pretty amazing, we firstly learnt that Tracxn had so many capabilities, especially for a startup founder when it comes to competitor analysis, finding out a lot about the investors, how easy it is to actually use the entire platform. So I think it was a pretty cool research tool and I can't wait to start leveraging it.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">KK</div>
+            <div>
               <strong>Khyati Khandelwal</strong>
               <span>Indian School of Business</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;I started using Tracxn when I was doing an internship in a VC fund, a couple of years back and it was used extensively by the analysts and the partners, that was the first introduction to Tracxn as a platform. I also did a master of finance in Germany in Frankfurt and It was surprising that Tracxn was used exclusively there, because there was a lot of coverage for US based companies and Indian subsidies.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;I started using Tracxn when I was doing an internship in a VC fund, a couple of years back and it was used extensively by the analysts and the partners, that was the first introduction to Tracxn as a platform. I also did a master of finance in Germany in Frankfurt and It was surprising that Tracxn was used exclusively there, because there was a lot of coverage for US based companies and Indian subsidies.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">RD</div>
+            <div>
               <strong>Rohil Dokani</strong>
               <span>Indian School of Business</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;So we have been provided with Tracxn as a platform. It is a database platform that has immense features. I am continuously using Tracxn from the last 10-12 months. It's been very useful in analyzing financial data, mainly of unlisted companies, finding out new startups across the location across India or globally.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;So we have been provided with Tracxn as a platform. It is a database platform that has immense features. I am continuously using Tracxn from the last 10-12 months. It's been very useful in analyzing financial data, mainly of unlisted companies, finding out new startups across the location across India or globally.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">GJ</div>
+            <div>
               <strong>Ganesh Jaju</strong>
               <span>Xavier Institute of Management and Entrepreneurship</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been a valuable resource during my business development internship. It's helped me efficiently identify potential clients by filtering companies based on recent funding rounds, team size, and hiring trends. While not all internships require this, especially given the variety in domains and functions, Tracxn stands out as a powerful tool for anyone looking to quickly grasp industry dynamics and make informed outreach decisions.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been a valuable resource during my business development internship. It's helped me efficiently identify potential clients by filtering companies based on recent funding rounds, team size, and hiring trends. While not all internships require this, especially given the variety in domains and functions, Tracxn stands out as a powerful tool for anyone looking to quickly grasp industry dynamics and make informed outreach decisions.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">HM</div>
+            <div>
               <strong>Hathim Syed Mohamed M</strong>
               <span>IIM Kozhikode, PGP Batch '26</span>
             </div>
           </div>
-          <div class="testimonial-card">
-            <p>&ldquo;Tracxn has been a valuable resource for identifying and accessing a diverse pool of industry professionals. The depth and organisation of the database have made large-scale academic data collection both feasible and efficient.&rdquo;</p>
-            <div class="testimonial-card__author">
+        </div>
+        <div class="testimonial-card testimonial-card--student">
+          <div class="testimonial-card__quote-mark">&ldquo;</div>
+          <p>&ldquo;Tracxn has been a valuable resource for identifying and accessing a diverse pool of industry professionals. The depth and organisation of the database have made large-scale academic data collection both feasible and efficient.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--student">ST</div>
+            <div>
               <strong>Shivangi Tiwari</strong>
               <span>Research Scholar, Batch of 2022</span>
             </div>
@@ -770,10 +1093,16 @@
   <section id="cta" class="cta">
     <div class="container">
       <div class="cta__card reveal">
-        <h2>Know how other universities have been leveraging Tracxn</h2>
-        <div class="cta__buttons">
-          <a href="#" class="btn btn--primary">Schedule Demo</a>
-          <a href="#" class="btn btn--outline">Talk to Us</a>
+        <div class="cta__card-bg"></div>
+        <div class="cta__content">
+          <h2>Know how other universities have been leveraging Tracxn</h2>
+          <div class="cta__buttons">
+            <a href="#" class="btn btn--primary">
+              <span>Schedule Demo</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#" class="btn btn--outline">Talk to Us</a>
+          </div>
         </div>
       </div>
     </div>
